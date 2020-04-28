@@ -1,0 +1,19 @@
+.page {
+  width: 90%;
+  max-width: 1170px;
+  text-transform: capitalize;
+  margin: 0 auto;
+}
+
+.page span {
+  margin-left: 2rem;
+  color: grey;
+}
+
+.page article {
+  margin: 2rem 0;
+}
+
+.page div {
+  height: 15rem;
+}

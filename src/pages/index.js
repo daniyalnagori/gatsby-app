@@ -1,3 +1,9 @@
 import React from "react"
-
-export default () => <div>Hello world!</div>
+import Layout from "../components/layout"
+import { ExampleButton } from "../components/button"
+export default () => (
+  <Layout>
+    <h1>hello from PIAIC</h1>
+    <ExampleButton>Click Me</ExampleButton>
+  </Layout>
+)
